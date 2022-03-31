@@ -1,28 +1,25 @@
-.place__paragraph-1{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.63;
-    /* or 29px */
-    margin:0;
-    max-width: 484px;
-    min-height: 145px;
-    
+.place__paragraph-1 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.63;
+  /* or 29px */
+  margin: 0;
+  max-width: 484px;
+  min-height: 145px;
 }
-@media screen and (max-width:768px){
-    .place__paragraph-1{
-        font-size: 16px;
-    }
-
+@media screen and (max-width: 768px) {
+  .place__paragraph-1 {
+    font-size: 16px;
+  }
 }
 
-@media screen and (max-width:530px){
-    .place__paragraph-1{
-        margin-top: 20px;
-    }
+@media screen and (max-width: 530px) {
+  .place__paragraph-1 {
+    margin-top: 20px;
+  }
 }
-@media screen and (max-width:320px) {
-    .place__paragraph-1{
-        margin-top: 32px;
-    }
-    
+@media screen and (max-width: 320px) {
+  .place__paragraph-1 {
+    margin-top: 32px;
+  }
 }

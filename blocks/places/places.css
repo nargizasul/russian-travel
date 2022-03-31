@@ -1,19 +1,17 @@
-.places{
-    min-height: 3392px;
-    cursor: pointer;
+.places {
+  min-height: 3392px;
+  cursor: pointer;
 }
-@media screen and (max-width:530px) {
-    .places{
-        display: flex;
-        flex-direction: column;
-    }
-    
-}
-
-@media screen and (max-width:320px){
-    .places{
-        display: flex;
-        flex-direction: column;
-    }
+@media screen and (max-width: 530px) {
+  .places {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
+@media screen and (max-width: 320px) {
+  .places {
+    display: flex;
+    flex-direction: column;
+  }
+}

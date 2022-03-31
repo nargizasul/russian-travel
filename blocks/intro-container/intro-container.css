@@ -1,17 +1,17 @@
-.intro-container{
-    max-width: 690px;
-    box-sizing: border-box;
+.intro-container {
+  max-width: 690px;
+  box-sizing: border-box;
+  min-height: 429px;
+}
+@media screen and (max-width: 768px) {
+  .intro-container {
+    max-width: 720px;
     min-height: 429px;
+  }
 }
-@media screen and (max-width:768px) {
-    .intro-container{
-        max-width: 720px;
-        min-height: 429px;
-    }  
-}
-@media screen and (max-width:320px){
-    .intro-container{
-        max-width: 288px;
-        min-height: 754px;
-    }
+@media screen and (max-width: 320px) {
+  .intro-container {
+    max-width: 288px;
+    min-height: 754px;
+  }
 }

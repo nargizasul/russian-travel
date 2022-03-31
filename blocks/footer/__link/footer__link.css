@@ -7,21 +7,21 @@
   line-height: 1.12;
   margin-right: 18px;
   /* identical to box height, or 112% */
-
 }
 
-@media screen and (min-width:321px) and (max-width:720px){
-  .footer__link{
+@media screen and (min-width: 321px) and (max-width: 720px) {
+  .footer__link {
     font-size: 20px;
   }
 }
 
-@media screen and (max-width:320px) {
-  .footer__link{
+@media screen and (max-width: 320px) {
+  .footer__link {
     font-size: 1.5rem;
-    line-height:1;
+    line-height: 1;
     margin-right: 0;
-    margin:32px 0;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
-      

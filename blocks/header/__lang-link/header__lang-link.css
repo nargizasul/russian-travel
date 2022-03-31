@@ -1,17 +1,17 @@
-.header__lang-link{
-    text-decoration: none;
-    font-size: 1.5rem;
-    line-height: 30px;
-    font-weight: 400;
-    margin-right: 18px;
-    color: #FFFFFF;
+.header__lang-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  line-height: 30px;
+  font-weight: 400;
+  margin-right: 18px;
+  color: #ffffff;
 }
-.header__lang-link:last-child{
-    margin-right: 0;
+.header__lang-link:last-child {
+  margin-right: 0;
 }
 
-@media screen and (max-width:380px){
-    .header__lang-link{
-        font-size: 1.125rem;
-    }
+@media screen and (max-width: 380px) {
+  .header__lang-link {
+    font-size: 1.125rem;
+  }
 }

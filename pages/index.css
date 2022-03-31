@@ -35,9 +35,6 @@
 @import url(../blocks/footer/__link/_overlay/footer__link_overlay.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
-@import url(../blocks/container-lg/container-lg.css);
-@import url(../blocks/container-sm/container-sm.css);
-@import url(../blocks/container-md/container-md.css);
 @import url(../blocks/place/__description/place__description.css);
 @import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/place/__website/_106/place__website_106.css);
@@ -58,6 +55,3 @@
 
 
 
-/* *{
-    border: 1px solid red;
-} */

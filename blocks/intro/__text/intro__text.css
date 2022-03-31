@@ -1,8 +1,7 @@
-.intro__text{
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.63;
-/* or 26px */
-margin: 0;
-
+.intro__text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.63;
+  /* or 26px */
+  margin: 0;
 }
