@@ -1,0 +1,22 @@
+.photo-grid-container{
+    max-width: 1184px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+@media screen and (max-width:1024px) {
+    .photo-grid-container{
+        max-width: 928px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .photo-grid-container{
+        max-width: 720px;
+    }
+    
+}
+@media screen and (max-width:320px) {
+    .photo-grid-container{
+        max-width: 288px;
+    }
+}

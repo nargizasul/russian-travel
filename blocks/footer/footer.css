@@ -1,0 +1,19 @@
+.footer {
+  min-height: 18px;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  
+}
+@media screen and (min-width:321px) and (max-width:720px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+@media screen and (max-width: 320px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+}

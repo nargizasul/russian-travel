@@ -1,0 +1,19 @@
+.place__description{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+@media screen and (max-width:530px) {
+    .place__description{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .place__description{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

@@ -1,0 +1,16 @@
+.place__website_106{
+    margin-top: 106px;
+}
+
+@media screen and (max-width:530px) {
+    .place__website_106{
+        margin-top: 40px;
+    }
+    
+}
+
+@media screen and (max-width:320px){
+    .place__website_106{
+        margin-top: 32px;
+    }
+}

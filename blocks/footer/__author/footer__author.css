@@ -1,0 +1,28 @@
+.footer__author{
+    margin-left: 300px;
+}
+@media screen and (max-width:1024px) {
+    .footer__author{
+        margin-left: 277px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .footer__author{
+        margin-left: 50px;
+    }
+    
+}
+@media screen and (min-width:321px) and (max-width:720px) {
+    .footer__author{
+        margin-left: 16px;
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+    .footer__author{
+        margin-left: 0;
+    }
+    
+}

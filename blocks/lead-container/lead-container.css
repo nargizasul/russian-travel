@@ -1,0 +1,22 @@
+.lead-container{
+    max-width: 984px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+@media screen and (max-width:1024px) {
+    .lead-container{
+        max-width: 928px;
+    }
+    
+}
+@media screen and (max-width:768px){
+    .lead-container{
+        max-width: 768px;
+    
+    }
+}
+@media screen and (max-width:320px){
+    .lead-container{
+        max-width: 320px;
+    }
+}

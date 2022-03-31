@@ -1,0 +1,22 @@
+.cover-container{
+    max-width: 1184px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+@media screen and (max-width:1024px) {
+    .cover-container{
+        max-width: 1024px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .cover-container{
+        max-width: 768px;
+    }
+}
+@media screen and (max-width:320px) {
+    .cover-container{
+        max-width: 320px;
+    }
+    
+}

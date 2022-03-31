@@ -1,0 +1,42 @@
+.place{
+  display: flex;
+  margin-bottom: 80px;
+  flex-direction: column;
+}
+.place:first-child{
+  margin-top: 92px;
+}
+@media screen and (max-width:1024px) {
+  .place{
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:768px) {
+  .place{
+  margin-bottom: 73px;
+}
+  
+}
+
+@media screen and (max-width:530px){
+  .place:first-child{
+    margin-top: 70px;
+  }
+  .place{
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:320px){
+  .place{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .place:first-child{
+    margin-top: 64px;
+  }
+}
