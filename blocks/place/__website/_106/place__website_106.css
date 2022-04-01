@@ -1,6 +1,13 @@
 .place__website_106 {
   margin-top: 106px;
 }
+@media screen and (max-width:768px) {
+  .place__website_106{
+    margin-top: 46px;
+    margin-left: 38px;
+  }
+  
+}
 
 @media screen and (max-width: 530px) {
   .place__website_106 {
@@ -11,5 +18,6 @@
 @media screen and (max-width: 320px) {
   .place__website_106 {
     margin-top: 32px;
+    margin-left: 0;
   }
 }

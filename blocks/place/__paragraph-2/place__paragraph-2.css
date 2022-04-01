@@ -7,7 +7,12 @@
   margin-left: 0;
   margin-right: 0;
   max-width: 484px;
-  min-height: 203px;
+}
+@media screen and (max-width:1024px){
+    .place__paragraph-2{
+        margin-top: 26px;
+        max-width: 456px;
+    }
 }
 
 @media screen and (max-width: 768px) {

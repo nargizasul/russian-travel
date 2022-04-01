@@ -1,5 +1,4 @@
 .places {
-  min-height: 3392px;
   cursor: pointer;
 }
 @media screen and (max-width: 530px) {

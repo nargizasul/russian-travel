@@ -5,7 +5,13 @@
   /* or 29px */
   margin: 0;
   max-width: 484px;
-  min-height: 145px;
+}
+@media screen and (max-width:1024px) {
+  .place__paragraph-1{
+    max-width: 456px;
+    
+  }
+  
 }
 @media screen and (max-width: 768px) {
   .place__paragraph-1 {

@@ -1,7 +1,20 @@
 .place__info {
   display: flex;
   justify-content: space-between;
-  margin-top: 48px;
+  margin-top: 47px;
+}
+
+@media screen and (max-width:1024px) {
+  .place__info{
+    margin-top: 46px;
+  }
+  
+}
+@media screen and (max-width:768px) {
+  .place__info{
+    margin-top: 48px;
+  }
+  
 }
 
 @media screen and (max-width: 530px) {

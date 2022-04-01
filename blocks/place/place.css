@@ -10,10 +10,16 @@
   .place {
     width: 100%;
   }
+  .place:first-child{
+    margin-top: 88px;
+  }
 }
 @media screen and (max-width: 768px) {
   .place {
     margin-bottom: 73px;
+  }
+  .place:last-child{
+    margin-bottom: 90px;
   }
 }
 
