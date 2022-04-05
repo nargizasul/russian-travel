@@ -1,4 +1,4 @@
-.cover {
+/*.cover {
   background-image: url(../../images/cover-trains.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,4 +17,4 @@
 }
 .cover:hover::before {
   opacity: 0.8;
-}
+}/*
