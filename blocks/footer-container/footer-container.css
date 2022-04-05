@@ -3,11 +3,14 @@
   box-sizing: border-box;
   margin: 0 auto;
 }
+
+
 @media screen and (max-width: 1024px) {
   .footer-container {
     max-width: 928px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .footer-container {
     max-width: 720px;
@@ -18,8 +21,4 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 320px) {
-  .footer-container {
-    width: 100%;
-  }
-}
+

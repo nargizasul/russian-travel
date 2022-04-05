@@ -11,14 +11,10 @@
 
 @media screen and (max-width: 768px) {
   .place__text {
-    margin-left: 31px;
+    margin-left: 20px;
   }
 }
-@media screen and (max-width: 530px) {
-  .place__text {
-    margin-left: 0;
-  }
-}
+
 
 @media screen and (max-width: 320px) {
   .place__text {

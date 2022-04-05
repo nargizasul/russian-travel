@@ -19,13 +19,12 @@
 
 @media screen and (max-width: 530px) {
   .place__website {
-    margin-left: 0;
+    margin-left: 16px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__website {
     margin-top: 32px;
-    margin-left: 0;
   }
 }

@@ -7,10 +7,3 @@
     flex-direction: column;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .places {
-    display: flex;
-    flex-direction: column;
-  }
-}

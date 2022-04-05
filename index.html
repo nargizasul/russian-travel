@@ -8,7 +8,7 @@
     <title>Путешествие по России</title>
   </head>
   <body class="page">
-    <header class="header header-container">
+   <header class="header header-container">
       <div class="header__logo"></div>
       <div class="header__lang-link">
         <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
@@ -59,7 +59,7 @@
           <li>Аэропортов <span class="intro__list-number">241</span></li>
         </ul>
       </section>
-      <div class="photo-grid photo-grid-container">
+      <section class="photo-grid photo-grid-container">
         <img
           class="photo-grid__item"
           alt="вид из окна поезда"
@@ -120,9 +120,9 @@
           alt="туман на Ергаки"
           src="./images/photo-grid-ergaki.jpg"
         />
-      </div>
+      </section>
       <section class="places places-container">
-        <div class="place">
+        <article class="place">
           <div class="place__description">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website place__website_106">
@@ -155,8 +155,8 @@
               </p>
             </div>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <div class="place__description">
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
@@ -192,8 +192,8 @@
               </p>
             </div>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <div class="place__description">
             <h2 class="place__title">Алтай</h2>
             <div class="place__website">
@@ -229,8 +229,8 @@
               </p>
             </div>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <div class="place__description">
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website place__website_106">
@@ -265,8 +265,8 @@
               </p>
             </div>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <div class="place__description">
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
@@ -296,22 +296,21 @@
               </p>
             </div>
           </div>
-        </div>
+        </article>
       </section>
+      <a class="cover__link"
+      href="https://stampsy.com/na-elektrichkakh-do-baikala"
+      target="_blank">
       <section class="cover cover-container">
-        <div class="cover__text">
-          <a
-            class="cover__link"
-            href="https://stampsy.com/na-elektrichkakh-do-baikala"
-            target="_blank"
-            ><h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2></a
-          >
+        <div class="cover__text">  
+            <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
           <p class="cover__subtitle">
             По мотивам учебной темы о Транссибе — путешествие от столицы до
             Байкала на электричках.
           </p>
         </div>
       </section>
+    </a>
     </main>
     <footer class="footer footer-container">
       <nav>
@@ -341,9 +340,7 @@
           </li>
         </ul>
       </nav>
-      <div class="footer__author">
         <p class="footer__copyright">&copy;2022 Наргиза Сулайманкулова</p>
-      </div>
     </footer>
   </body>
 </html>

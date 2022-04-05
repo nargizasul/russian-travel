@@ -12,4 +12,4 @@ _Третья проектная работа для Яндекс.Практик
 * файловая структура по БЭМ (Nested)
 -----
 
-[ссылка на мой проект](https://github.com/nargizasul/russian-travel.git)
+[ссылка на мой проект](https://nargizasul.github.io/russian-travel/index.html)
